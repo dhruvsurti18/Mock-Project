@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f7fb;
+  color: #333;
+}
+
+.nav {
+  background: #1f2937;
+  padding: 14px 30px;
+  display: flex;
+  gap: 15px;
+}
+
+.nav button {
+  background: transparent;
+  border: 1px solid #4b5563;
+  color: #f9fafb;
+  padding: 8px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form {
+  max-width: 460px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.form h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #111827;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="number"],
+.form input[type="file"] {
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+}
+
+.form input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.form button {
+  margin-top: 10px;
+  padding: 10px;
+  background: red;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+.table-wrap {
+  padding: 30px;
+}
+
+.table-wrap h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+table {
+  width: 100%;
+  background: #ffffff;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+th {
+  background: #1f2937;
+  color: #ffffff;
+  padding: 12px;
+  font-weight: 500;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: center;
+  font-size: 14px;
+}
+
+td button {
+  padding: 6px 10px;
+  margin: 0 3px;
+  font-size: 13px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+td button:first-child {
+  background: #10b981;
+  color: white;
+}
+
+td button:last-child {
+  background: #ef4444;
+  color: white;
+}
+
+.img-sm {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.cards {
+  padding: 30px;
+  gap: 25px;
+}
+
+.card {
+  padding: 18px;
+  text-align: center;
+}
+
+
+.card img {
+  width: 15%;
+  height: 20%;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  margin: 6px 0;
+  font-size: 28px;
+}
+
+.card p {
+  font-size: 20px;
+  margin: 3px 0;
+  color: #555;
+}
+
+.card span {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 4px 10px;
+  font-size: 15px;
+  border-radius: 20px;
+  background: #e5f0ff;
+  color: #2563eb;
+}
